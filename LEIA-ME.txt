@@ -1,0 +1,12 @@
+COMO INSTALAR
+1. Inicie o Apache e o MySQL no XAMPP.
+2. No MySQL Workbench, abra o banco.sql e execute tudo (raio amarelo).
+   (a senha do MySQL usada no sistema é 123456 - veja conexao.php)
+3. Copie a pasta "sistema_login" para C:\xampp\htdocs\
+4. Acesse: http://localhost/sistema_login/
+
+COMO FUNCIONA
+- Sem administrador no banco -> aparece o "Primeiro acesso".
+- Com administrador          -> aparece o login.
+- ADMIN: publica/exclui avisos e cadastra/exclui usuarios.
+- COMUM: apenas le os avisos.
